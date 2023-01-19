@@ -1,0 +1,265 @@
+/* fuente */
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+
+body {
+  min-height: 100vh;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.navbar.navbar-expand-lg.bg-light {
+  background: #937dc2;
+  background: -moz-linear-gradient(left, #937dc2 0%, #c689c6 48%, #c689c6 100%);
+  background: -webkit-linear-gradient(
+    left,
+    #937dc2 0%,
+    #c689c6 48%,
+    #c689c6 100%
+  );
+  background: linear-gradient(to right, #937dc2 0%, #c689c6 48%, #c689c6 100%);
+  --bs-navbar-brand-margin-end: 0rem;
+  --bs-navbar-padding-y: 0rm;
+}
+
+/* sigueme */
+h3.list-group-heading {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 1.375rem;
+  letter-spacing: 0.138rem;
+  word-spacing: 0px;
+  color: #000000;
+  font-weight: 700;
+  font-style: italic;
+  padding-top: 0.625rem;
+}
+
+/* iconos de redes sociales */
+.list-group.list-group-horizontal {
+  background: none;
+}
+/* instagram */
+a.fa-brands.fa-instagram.fa-2x {
+  text-decoration: none;
+  color: #212529;
+}
+
+a.fa-brands.fa-instagram.fa-2x:hover {
+  color: #e8a0bf;
+  transition: transform 0.2s ease-in-out;
+  transform: scale(1.25);
+}
+/* linkedin */
+a.fa-brands.fa-linkedin-in.fa-2x:hover {
+  color: #ffffff;
+  transition: transform 0.2s ease-in-out;
+  transform: scale(1.25);
+}
+a.fa-brands.fa-linkedin-in.fa-2x {
+  text-decoration: none;
+  color: #212529;
+}
+
+a.fa-brands.fa-github.fa-2x:hover {
+  color: #fcc5c0;
+  transition: transform 0.2s ease-in-out;
+  transform: scale(1.25);
+}
+
+a.fa-brands.fa-github.fa-2x {
+  text-decoration: none;
+  color: #212529;
+}
+
+i.fa-solid.fa-user-lock.fa-2x:hover {
+  color: #83638c;
+  transition: transform 0.2s ease-in-out;
+  transform: scale(1.25);
+}
+
+li.list-group-item {
+  --bs-list-group-bg: transparent;
+  --bs-list-group-border-color: transparent;
+}
+/* Modal */
+.form-control-plaintext:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #c689c691;
+  outline: 0;
+  box-shadow: 0 0 0 0.063rem #c689c691;
+}
+.form-control:focus {
+  border-color: #c689c691;
+  box-shadow: 0 0 0 0.063rem #c689c691;
+}
+/* banner */
+img.w-100 {
+  height: 100%;
+  object-fit: cover;
+}
+.banner {
+  height: 18.75rem;
+  margin: 0px;
+}
+
+/* Secciones  sobre mi  */
+#SobreMi {
+  padding: 0.625rem;
+  max-width: 100%;
+  text-align: center;
+  margin-left: 0%;
+
+  background: #937dc2;
+  background: -moz-linear-gradient(left, #937dc2 0%, #c689c6 48%, #c689c6 100%);
+  background: -webkit-linear-gradient(
+    left,
+    #937dc2 0%,
+    #c689c6 48%,
+    #c689c6 100%
+  );
+  background: linear-gradient(to right, #937dc2 0%, #c689c6 48%, #c689c6 100%);
+  font-family: Verdana, Geneva, sans-serif;
+  letter-spacing: 0.138rem;
+  word-spacing: 0px;
+  color: #000000;
+  font-weight: 700;
+  font-style: italic;
+}
+
+@media (min-width: 576px) {
+  #fotodeperfil {
+    width: 8.125rem;
+    position: relative;
+    box-shadow: 0.188rem 0.188rem 0.188rem #83638c;
+    left: -0.188rem;
+    top: -3.125rem;
+    border-radius: 48% 52% 49% 51% / 100% 0% 100% 0%;
+  }
+}
+
+@media (max-width: 575px) {
+  #fotodeperfil {
+    width: 6.25rem;
+    top: 12.563rem;
+    position: absolute;
+    left: 10rem;
+    box-shadow: 0.063rem 0.313rem 0.125rem #83638c;
+  }
+}
+#nombre {
+  font-weight: bold;
+  margin-top: 0.875rem;
+}
+/* Seccion  educación */
+div#Educacion.row {
+  padding: 1.25rem;
+}
+#educacion {
+  display: inline;
+}
+
+/* Seccion  habilidades  */
+div#Habilidades.row {
+  padding: 1.25rem;
+}
+
+/* Seccion  proyectos  */
+.parent {
+  padding: 1.25rem;
+  display: grid;
+  grid-template-columns: 0.25fr repeat(6, 1fr) 0.25fr;
+  grid-template-rows: 0.5fr repeat(2, 1fr) 0.5fr;
+  grid-column-gap: 7px;
+  grid-row-gap: 0px;
+}
+
+.div1 {
+  grid-area: 2 / 2 / 4 / 4;
+}
+.div2 {
+  grid-area: 2 / 4 / 4 / 6;
+}
+.div3 {
+  grid-area: 2 / 6 / 4 / 8;
+}
+
+.card:hover {
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3%);
+  opacity: 0.6;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 80%;
+}
+/* Seccion experiencia */
+div#ExperienciaLab.row {
+  padding: 1.25rem;
+  padding-right: 2rem;
+}
+#experiencia {
+  display: inline;
+}
+/* footer  */
+.footer {
+  margin-top: 1rem;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding-top: 0.0625rem;
+  background: #937dc2;
+  background: -moz-linear-gradient(left, #937dc2 0%, #c689c6 48%, #c689c6 100%);
+  background: -webkit-linear-gradient(
+    left,
+    #937dc2 0%,
+    #c689c6 48%,
+    #c689c6 100%
+  );
+  background: linear-gradient(to right, #937dc2 0%, #c689c6 48%, #c689c6 100%);
+  font-family: Verdana, Geneva, sans-serif;
+  letter-spacing: 0.138rem;
+  word-spacing: 0px;
+  color: #000000;
+  font-weight: 700;
+  font-style: italic;
+  clear: both;
+}
+/* boton para Descargar */
+.css-button-sliding-to-bottom--rose {
+  min-width: 5rem;
+  margin: 1rem;
+
+  color: #fff;
+  padding: 1px 1px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  z-index: 0;
+  background: #fff;
+  overflow: hidden;
+  border: 2px solid #c689c6;
+  color: #ff0a78;
+}
+.css-button-sliding-to-bottom--rose:hover {
+  color: #fff;
+}
+.css-button-sliding-to-bottom--rose:hover:after {
+  height: 100%;
+}
+.css-button-sliding-to-bottom--rose:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s ease;
+  left: 0;
+  top: 0;
+  height: 0;
+  width: 100%;
+  background: #ff0a78;
+}
