@@ -44,7 +44,7 @@ a.fa-brands.fa-instagram.fa-2x {
 }
 
 a.fa-brands.fa-instagram.fa-2x:hover {
-  color: #e8a0bf;
+  color: #1187f4;
   transition: transform 0.2s ease-in-out;
   transform: scale(1.25);
 }
@@ -60,7 +60,7 @@ a.fa-brands.fa-linkedin-in.fa-2x {
 }
 
 a.fa-brands.fa-github.fa-2x:hover {
-  color: #fcc5c0;
+  color: #0062e3;
   transition: transform 0.2s ease-in-out;
   transform: scale(1.25);
 }
@@ -70,28 +70,12 @@ a.fa-brands.fa-github.fa-2x {
   color: #212529;
 }
 
-i.fa-solid.fa-user-lock.fa-2x:hover {
-  color: #83638c;
-  transition: transform 0.2s ease-in-out;
-  transform: scale(1.25);
-}
-
 li.list-group-item {
   --bs-list-group-bg: transparent;
   --bs-list-group-border-color: transparent;
+  text-align: left;
 }
-/* Modal */
-.form-control-plaintext:focus {
-  color: #212529;
-  background-color: #fff;
-  border-color: #c689c691;
-  outline: 0;
-  box-shadow: 0 0 0 0.063rem #c689c691;
-}
-.form-control:focus {
-  border-color: #c689c691;
-  box-shadow: 0 0 0 0.063rem #c689c691;
-}
+
 /* banner */
 img.w-100 {
   height: 100%;
@@ -108,16 +92,16 @@ img.w-100 {
   max-width: 100%;
   text-align: center;
   margin-left: 0%;
-
-  background: #937dc2;
-  background: -moz-linear-gradient(left, #937dc2 0%, #c689c6 48%, #c689c6 100%);
+  background: linear-gradient(90deg, #1187f4 15%,
+  #00e3c5 48%,
+  #66f45c 100%);
   background: -webkit-linear-gradient(
     left,
-    #937dc2 0%,
-    #c689c6 48%,
-    #c689c6 100%
+    #1187f4 15%,
+    #00e3c5 48%,
+    #66f45c 100%
   );
-  background: linear-gradient(to right, #937dc2 0%, #c689c6 48%, #c689c6 100%);
+  background: linear-gradient(to left top, #1187f4, #009efa, #00b2f5, #00c3eb, #00d2df, #00dbd6, #00e2c7, #00e9b3, #14eda2, #31f08e, #4cf277, #66f45c);
   font-family: Verdana, Geneva, sans-serif;
   letter-spacing: 0.138rem;
   word-spacing: 0px;
@@ -130,7 +114,7 @@ img.w-100 {
   #fotodeperfil {
     width: 8.125rem;
     position: relative;
-    box-shadow: 0.188rem 0.188rem 0.188rem #83638c;
+    box-shadow: 0.188rem 0.188rem 0.188rem #048542;
     left: -0.188rem;
     top: -3.125rem;
     border-radius: 48% 52% 49% 51% / 100% 0% 100% 0%;
@@ -143,7 +127,8 @@ img.w-100 {
     top: 12.563rem;
     position: absolute;
     left: 10rem;
-    box-shadow: 0.063rem 0.313rem 0.125rem #83638c;
+    box-shadow: 0.063rem 0.313rem 0.125rem #048542;
+    border-radius: 0% 100% 0% 100% / 50% 26% 74% 50%;
   }
 }
 #nombre {
@@ -210,15 +195,16 @@ div#ExperienciaLab.row {
   margin: auto;
   text-align: center;
   padding-top: 0.0625rem;
-  background: #937dc2;
-  background: -moz-linear-gradient(left, #937dc2 0%, #c689c6 48%, #c689c6 100%);
+  background: linear-gradient(90deg, #1187f4 15%,
+  #00e3c5 48%,
+  #66f45c 100%);
   background: -webkit-linear-gradient(
     left,
-    #937dc2 0%,
-    #c689c6 48%,
-    #c689c6 100%
+    #1187f4 15%,
+    #00e3c5 48%,
+    #66f45c 100%
   );
-  background: linear-gradient(to right, #937dc2 0%, #c689c6 48%, #c689c6 100%);
+  background: linear-gradient(to left top, #1187f4, #009efa, #00b2f5, #00c3eb, #00d2df, #00dbd6, #00e2c7, #00e9b3, #14eda2, #31f08e, #4cf277, #66f45c);
   font-family: Verdana, Geneva, sans-serif;
   letter-spacing: 0.138rem;
   word-spacing: 0px;
