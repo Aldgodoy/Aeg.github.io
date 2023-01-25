@@ -4,3 +4,5 @@ Proyecto final de primeros pasos del desarrollo frontend, Front end Academy - 20
 ## Imagenes sacadas de 
 https://randomuser.me/
 
+## Paleta de colores 
+https://colorhunt.co/
