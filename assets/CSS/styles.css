@@ -205,18 +205,27 @@ div#Educacion.row {
 /* Seccion  habilidades  */
 div#Habilidades.row {
   padding: 1.25rem;
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
 }
 
-.column {
-  display: grid;
-  gap: 0.5rem;
-}
 @media screen and (min-width: 576px) {
   .column {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, min-content);
     align-items: start;
   }
+}
+
+.div5 {
+  grid-area: 2 / 2 / 10 / 6;
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.4);
+  }
+.div6 {
+  grid-area: 2 / 7 / 10 / 11;
 }
 
 .skills {
