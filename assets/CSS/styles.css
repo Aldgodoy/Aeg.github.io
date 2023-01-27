@@ -131,6 +131,7 @@ img.w-100 {
 .banner {
   height: 18.75rem;
   margin: 0px;
+  opacity: 0.7;
 }
 
 /* Secciones  sobre mi  */
@@ -223,7 +224,7 @@ div#Habilidades.row {
 .div5 {
   grid-area: 2 / 2 / 10 / 6;
   box-shadow: 2px 5px 5px #14eda1a1;
-  }
+}
 .div6 {
   grid-area: 2 / 7 / 10 / 11;
   box-shadow: 2px 5px 5px #14eda1a1;
