@@ -116,7 +116,7 @@ li.list-group-item {
   box-shadow: 0rem 0rem 0.125rem 0.125rem #048542;
 }
 .switch.active {
-  background: #BFDB38;
+  background: #bfdb38;
   color: #000000;
 }
 .switch.active::after {
@@ -205,6 +205,84 @@ div#Educacion.row {
 /* Seccion  habilidades  */
 div#Habilidades.row {
   padding: 1.25rem;
+}
+
+.column {
+  display: grid;
+  gap: 0.5rem;
+}
+@media screen and (min-width: 576px) {
+  .column {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, min-content);
+  }
+}
+
+.skills {
+  padding: 1em 0;
+}
+.skills_header {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 4rem;
+  margin-right: 1rem;
+}
+
+.skills_items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.skills_bar,
+.skills_bar::after {
+  position: relative;
+  width: 175px;
+  height: 8px;
+  background-color: #00e3c536;
+  border-radius: 0.4em;
+  overflow: hidden;
+}
+
+.skills_bar::after {
+  content: '';
+  left: -175px;
+  position: absolute;
+  background-color: #048542;
+  transition: 0.1s, background-color 0.2s ease-in-out;
+  animation: skills_bar_fills 2s ease-in-out forwards;
+}
+
+:root {
+  --skills-bar-leght: 0%;
+}
+/* Nivel de las barras de progreso */
+.skills_bar--20::after {
+  --skills-bar-leght: 20%;
+}
+.skills_bar--30::after {
+  --skills-bar-leght: 30%;
+}
+.skills_bar--40::after {
+  --skills-bar-leght: 40%;
+}
+.skills_bar--50::after {
+  --skills-bar-leght: 50%;
+}
+.skills_bar--60::after {
+  --skills-bar-leght: 60%;
+}
+.skills_bar--70::after {
+  --skills-bar-leght: 70%;
+}
+.skills_bar--80::after {
+  --skills-bar-leght: 80%;
+}
+
+@keyframes skills_bar_fills {
+  to {
+    transform: translateX(var(--skills-bar-leght));
+  }
 }
 
 /* Seccion  proyectos  */
