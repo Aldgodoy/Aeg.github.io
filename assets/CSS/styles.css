@@ -375,6 +375,10 @@ div#ExperienciaLab.row {
   font-style: italic;
   clear: both;
 }
+small.aclaracion{
+  font-size: xx-small;
+}
+
 /* boton para Descargar */
 .css-button-sliding-to-bottom--rose {
   min-width: 5rem;
